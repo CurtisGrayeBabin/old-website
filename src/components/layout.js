@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet'
 import {
     layout
 } from '../styles/layout.module.css'
+import Headroom from 'react-headroom'
 
 const Layout = ({ pageTitle, children }) => {
   return (
@@ -16,9 +17,13 @@ const Layout = ({ pageTitle, children }) => {
           <link rel="canonical" href="https://www.curtisbabin.com" />
         </Helmet>
         
-        <div className={layout}>
+        
+        <Headroom>
+          <div className={layout}>
             <Header></Header>
-        </div>
+          </div>
+        </Headroom>
+        
         
         <main className={layout}>
           {children}

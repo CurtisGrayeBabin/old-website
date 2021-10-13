@@ -1,27 +1,24 @@
+
 .header {
-    @apply text-gray-600;
+    @apply text-gray-600 shadow mx-auto flex flex-wrap p-1 flex-col sm:flex-row items-center;
 }
 
-.header div {
-    @apply shadow mx-auto flex flex-wrap p-1 flex-col sm:flex-row items-center;
-}
-
-.header div a {
+.header a {
     @apply no-underline text-gray-900 flex font-medium items-center mb-0;
 }
 
-.header div a span {
-    @apply no-underline ml-3 text-lg;
+.header a span {
+    @apply no-underline ml-1 text-lg;
 }
 
-.header div nav {
+.header nav {
     @apply ml-auto mr-auto flex flex-wrap items-center text-base justify-center;
 }
 
-.header div nav a {
+.header nav a {
     @apply no-underline p-2;
 }
 
 .svg1 {
-     @apply w-4 h-4 p-2 text-white bg-blue-500 rounded-full;
+     @apply w-7 h-7 p-0.5 text-white bg-blue-500 rounded-full;
 }
