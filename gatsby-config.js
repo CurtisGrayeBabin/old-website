@@ -1,13 +1,14 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.curtisbabin.com",
-    title: "curtis-babin-website",
+    title: "Curtis Babin",
   },
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
+    "gatsby-plugin-postcss",
     {
       resolve: "gatsby-source-filesystem",
       options: {

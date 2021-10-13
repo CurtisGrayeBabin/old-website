@@ -1,0 +1,27 @@
+.header {
+    @apply font-sans text-gray-600;
+}
+
+.header div {
+    @apply container mx-auto flex flex-wrap p-2 flex-col sm:flex-row items-center;
+}
+
+.header div a {
+    @apply no-underline flex font-medium items-center text-gray-900 mb-4 md:mb-0;
+}
+
+.header div a span {
+    @apply no-underline ml-3 text-xl;
+}
+
+.header div nav {
+    @apply md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center;
+}
+
+.header div nav a {
+    @apply no-underline mr-5 hover:text-gray-900;
+}
+
+.svg1 {
+     @apply w-10 h-10 text-white p-2 bg-indigo-500 rounded-full;
+}
