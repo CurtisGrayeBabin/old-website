@@ -1,14 +1,19 @@
 import * as React from "react"
+import Layout from '../components/layout'
+import {
+  error
+} from '../styles/404.module.css'
 
 
-// markup
 const NotFoundPage = () => {
   return (
-    <main>
-      <title>Not found</title>
-      <h1>404 Page Not Found</h1>
-    </main>
+    <Layout pageTitle="404">
+      <section className={error}>
+        <h1>404</h1>
+        <p>Oops, this page doesn't exist!</p>
+      </section>
+    </Layout>
   )
 }
 
-export default NotFoundPage
+export default NotFoundPage;

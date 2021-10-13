@@ -1,9 +1,9 @@
 .header {
-    @apply text-gray-600 font-sans;
+    @apply text-gray-600;
 }
 
 .header div {
-    @apply shadow mx-auto flex flex-wrap p-2 flex-col sm:flex-row items-center;
+    @apply shadow mx-auto flex flex-wrap p-1 flex-col sm:flex-row items-center;
 }
 
 .header div a {
@@ -11,7 +11,7 @@
 }
 
 .header div a span {
-    @apply no-underline ml-3 text-xl;
+    @apply no-underline ml-3 text-lg;
 }
 
 .header div nav {
@@ -23,5 +23,5 @@
 }
 
 .svg1 {
-     @apply w-8 h-8 p-2 text-white bg-blue-500 rounded-full;
+     @apply w-4 h-4 p-2 text-white bg-blue-500 rounded-full;
 }
