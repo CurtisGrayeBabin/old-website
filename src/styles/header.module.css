@@ -1,5 +1,5 @@
 .header {
-    @apply font-sans text-gray-600;
+    @apply text-gray-600 font-sans;
 }
 
 .header div {
@@ -7,7 +7,7 @@
 }
 
 .header div a {
-    @apply no-underline flex font-medium items-center text-gray-900 mb-4 md:mb-0;
+    @apply no-underline text-gray-900 flex font-medium items-center mb-4 md:mb-0;
 }
 
 .header div a span {
@@ -19,9 +19,9 @@
 }
 
 .header div nav a {
-    @apply no-underline mr-5 hover:text-gray-900;
+    @apply no-underline mr-5;
 }
 
 .svg1 {
-     @apply w-10 h-10 text-white p-2 bg-indigo-500 rounded-full;
+     @apply w-8 h-8 p-2 text-white bg-blue-500 rounded-full;
 }
