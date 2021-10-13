@@ -3,11 +3,11 @@
 }
 
 .header div {
-    @apply container mx-auto flex flex-wrap p-2 flex-col sm:flex-row items-center;
+    @apply shadow mx-auto flex flex-wrap p-2 flex-col sm:flex-row items-center;
 }
 
 .header div a {
-    @apply no-underline text-gray-900 flex font-medium items-center mb-4 md:mb-0;
+    @apply no-underline text-gray-900 flex font-medium items-center mb-0;
 }
 
 .header div a span {
@@ -15,11 +15,11 @@
 }
 
 .header div nav {
-    @apply md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center;
+    @apply ml-auto mr-auto flex flex-wrap items-center text-base justify-center;
 }
 
 .header div nav a {
-    @apply no-underline mr-5;
+    @apply no-underline p-2;
 }
 
 .svg1 {

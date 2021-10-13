@@ -1,7 +1,4 @@
 import * as React from "react"
-import {
-  main
-} from '../styles/index.module.css'
 import Header from '../components/header.js'
 
 
