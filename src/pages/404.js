@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 import {
   error
 } from '../styles/404.module.css'
+import { Link } from 'gatsby'
 
 
 const NotFoundPage = () => {
@@ -12,7 +13,7 @@ const NotFoundPage = () => {
         <h1>404</h1>
         <p>Oops, this page doesn't exist!</p>
         <div>
-          <a href="/" aria-label="Back button"><button>Home</button></a>
+          <Link to="/"><button>Home</button></Link>
         </div>
       </section>
     </Layout>

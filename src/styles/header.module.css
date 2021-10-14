@@ -3,6 +3,10 @@
     @apply text-gray-600 shadow mx-auto flex flex-wrap p-1 flex-col sm:flex-row items-center;
 }
 
+.main {
+    @apply no-underline text-gray-900 flex font-medium items-center mb-0;
+}
+
 .header a {
     @apply no-underline text-gray-900 flex font-medium items-center mb-0;
 }
