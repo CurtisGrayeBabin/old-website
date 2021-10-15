@@ -25,9 +25,9 @@ const Header = (props) => {
             </Link>
 
             <nav>
-                <a href="https://github.com/CurtisGrayeBabin" target="_blank" rel="noopener noreferrer" aria-label="GitHub link"><GitHubIcon style={styleForIcons}/></a>
-                <a href="https://www.linkedin.com/in/curtisbabin/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn link"><LinkedInIcon style={styleForIcons}/></a>
-                <a href="https://www.instagram.com/curtis.g.babin/" target="_blank" rel="noopener noreferrer" aria-label="Instagram link"><InstagramIcon style={styleForIcons}/></a>
+                <a href="https://github.com/CurtisGrayeBabin" target="_blank" rel="noopener noreferrer" aria-label="Curtis Babin's GitHub account link"><GitHubIcon style={styleForIcons}/></a>
+                <a href="https://www.linkedin.com/in/curtisbabin/" target="_blank" rel="noopener noreferrer" aria-label="Curtis Babin's LinkedIn account link"><LinkedInIcon style={styleForIcons}/></a>
+                <a href="https://www.instagram.com/curtis.g.babin/" target="_blank" rel="noopener noreferrer" aria-label="Curtis Babin's Instagram account link"><InstagramIcon style={styleForIcons}/></a>
             </nav>
 
         </header>
