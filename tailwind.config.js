@@ -1,14 +1,19 @@
 module.exports = {
-  purge: ["./src/**/*.{js,jsx,ts,tsx}"],
+  purge: ["./public/**/*.html","./src/**/*.{js,jsx,ts,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    fontFamily: {
-      'sans': ['Roboto','ui-sans-serif', 'system-ui']
+    extend: {
+
+      fontFamily: {
+        'sans': ['Roboto','ui-sans-serif', 'system-ui']
+      },
+
     },
-    extend: {},
   },
   variants: {
-    extend: {},
+    transitionProperty: ['hover','responsive', 'motion-safe', 'motion-reduce'],
+    extend: {
+    },
   },
   plugins: [],
 }
