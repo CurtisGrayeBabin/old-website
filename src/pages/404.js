@@ -10,7 +10,7 @@ const NotFoundPage = () => {
   return (
     <Layout pageTitle="404">
       <section className={error}>
-        <h1>404</h1>
+        <h1 className={'animate-pulse'}>404</h1>
         <p>Oops, this page doesn't exist!</p>
         <div>
           <Link to="/"><button>Home</button></Link>
