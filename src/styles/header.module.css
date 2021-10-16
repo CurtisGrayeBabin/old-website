@@ -1,6 +1,6 @@
 
 .header {
-    @apply bg-white text-gray-600 shadow mx-auto flex flex-wrap p-1 flex-col sm:flex-row items-center;
+    @apply bg-white shadow mx-auto flex flex-wrap p-1 sm:flex-row items-center;
 }
 
 .main {
@@ -12,11 +12,11 @@
 }
 
 .header a span {
-    @apply no-underline ml-1 text-xl;
+    @apply no-underline ml-1 text-2xl;
 }
 
 .header nav {
-    @apply ml-auto sm:mr-0 mr-auto flex flex-wrap items-center text-base justify-center;
+    @apply ml-auto mr-0 flex flex-wrap items-center text-base justify-center;
 }
 
 .header nav a {
@@ -24,5 +24,5 @@
 }
 
 .svg1 {
-     @apply w-7 h-7 p-0.5 text-white bg-blue-500 rounded-full;
+    @apply w-7 h-7 ml-2 p-0.5 text-white bg-blue-500 rounded-full;
 }
