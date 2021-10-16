@@ -16,6 +16,8 @@ const NotFoundPage = () => {
           <Link to="/"><button>Home</button></Link>
         </div>
       </section>
+
+      <div style={{height: '900vh'}}></div>
     </Layout>
   )
 }

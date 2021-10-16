@@ -2,7 +2,7 @@ import * as React from 'react'
 import Header from './header.js'
 import { Helmet } from 'react-helmet'
 import {
-    layout
+  layout
 } from '../styles/layout.module.css'
 
 
