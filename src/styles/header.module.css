@@ -1,6 +1,6 @@
 
 .header {
-    @apply text-gray-600 shadow mx-auto flex flex-wrap p-1 flex-col sm:flex-row items-center;
+    @apply bg-white text-gray-600 shadow mx-auto flex flex-wrap p-1 flex-col sm:flex-row items-center;
 }
 
 .main {
@@ -12,7 +12,7 @@
 }
 
 .header a span {
-    @apply no-underline ml-1 text-lg;
+    @apply no-underline ml-1 text-xl;
 }
 
 .header nav {

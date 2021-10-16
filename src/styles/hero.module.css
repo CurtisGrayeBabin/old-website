@@ -1,0 +1,7 @@
+.main h1 {
+    @apply text-5xl mt-6 mb-4;
+}
+
+.main h2 {
+    @apply text-blue-500 text-lg font-medium;
+}
