@@ -15,7 +15,6 @@ const Layout = ({ pageTitle, children }) => {
           <meta charSet="utf-8" />
           <title>{pageTitle}</title>
           <link rel="canonical" href="https://www.curtisbabin.com"/>
-          <link rel="apple-touch-icon" href="/src/images/apple-touch-icon.png"></link>
           <link rel="manifest" crossorigin="use-credentials" href="/manifest.webmanifest" />
         </Helmet>
         
