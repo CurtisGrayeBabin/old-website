@@ -4,16 +4,14 @@ import {
     svg1,
     main
 } from '../styles/header.module.css'
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import GitHubIcon from '@mui/icons-material/GitHub';
-
+import { BiMenuAltRight } from "react-icons/bi";
 import { Link } from 'gatsby'
 import Headroom from 'react-headroom'
 
 const styleForIcons = {
     fontSize: '30px'
 }
+
 
 const Header = (props) => {
     return (
@@ -26,11 +24,7 @@ const Header = (props) => {
                     <span>Curtis Babin</span>
                 </Link>
 
-                <nav className={main}>
-                    <a href="https://github.com/CurtisGrayeBabin" target="_blank" rel="noopener noreferrer" aria-label="Curtis Babin's GitHub account link"><GitHubIcon style={styleForIcons}/></a>
-                    <a href="https://www.linkedin.com/in/curtisbabin/" target="_blank" rel="noopener noreferrer" aria-label="Curtis Babin's LinkedIn account link"><LinkedInIcon style={styleForIcons}/></a>
-                    <a href="https://www.instagram.com/curtis.g.babin/" target="_blank" rel="noopener noreferrer" aria-label="Curtis Babin's Instagram account link"><InstagramIcon style={styleForIcons}/></a>
-                </nav>
+                <BiMenuAltRight style={styleForIcons}/>
             </header>
         </Headroom>
     )
