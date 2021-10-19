@@ -13,6 +13,7 @@ module.exports = {
   variants: {
     transitionProperty: ['hover','responsive', 'motion-safe', 'motion-reduce'],
     extend: {
+      animation: ['hover', 'focus'],
     },
   },
   plugins: [],

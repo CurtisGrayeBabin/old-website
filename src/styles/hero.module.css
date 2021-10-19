@@ -1,10 +1,23 @@
+.main {
+    @apply w-auto;
+}
+
 .main h1 {
     @apply text-5xl mb-8;
 }
 
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
 
 .main h2 {
-  @apply text-blue-500 text-xl font-medium mb-8;
+  @apply w-max ml-0 mr-auto hover:animate-pulse text-blue-500 text-xl font-medium mb-8;
 }
 
 @keyframes bounce {

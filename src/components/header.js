@@ -7,7 +7,6 @@ import {
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import WorkOutlineIcon from '@mui/icons-material/WorkOutline';
 
 import { Link } from 'gatsby'
 import Headroom from 'react-headroom'
@@ -26,10 +25,6 @@ const Header = (props) => {
                     </svg>
                     <span>Curtis Babin</span>
                 </Link>
-
-                <nav>
-                    <WorkOutlineIcon style={styleForIcons}></WorkOutlineIcon>
-                </nav>
 
                 <nav className={main}>
                     <a href="https://github.com/CurtisGrayeBabin" target="_blank" rel="noopener noreferrer" aria-label="Curtis Babin's GitHub account link"><GitHubIcon style={styleForIcons}/></a>
