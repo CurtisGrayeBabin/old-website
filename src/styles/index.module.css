@@ -1,3 +1,7 @@
 .main {
     @apply text-4xl;
 }
+
+.marginTop {
+    @apply mt-12;
+}
