@@ -1,12 +1,6 @@
-/*
 .header {
-    backdrop-filter: blur(2px);
-    @apply bg-transparent shadow flex flex-wrap justify-between p-3 items-center;
-}*/
-
-.header {
-    -webkit-backdrop-filter: blur(2px);
-    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(1px) opacity(75%);
+    backdrop-filter: blur(1px) opacity(75%);
     @apply bg-transparent shadow flex flex-wrap justify-between p-3 items-center;
 }
 
