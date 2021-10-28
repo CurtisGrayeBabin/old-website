@@ -1,7 +1,8 @@
 .header {
     -webkit-backdrop-filter: blur(2px) opacity(75%);
     backdrop-filter: blur(2px) opacity(75%);
-    @apply rounded-xl bg-transparent shadow flex flex-wrap justify-between p-3 items-center;
+    height: 60px;
+    @apply px-3 rounded-xl bg-transparent shadow-md flex flex-wrap justify-between items-center;
 }
 
 /* the grouping of the icon and my name */

@@ -2,6 +2,7 @@ import * as React from "react"
 import Layout from '../components/layout'
 import Hero from '../components/hero'
 import Credible from '../components/credible'
+import Portfolio from '../components/portfolio'
 
 const componentWrap = {
     height: '100vh',
@@ -18,7 +19,12 @@ const IndexPage = () => {
 
       <div style={componentWrap}>
         <Credible />
+      </div>      
+
+      <div style={componentWrap}>
+        <Portfolio />
       </div>
+
       
     </Layout>
   )
