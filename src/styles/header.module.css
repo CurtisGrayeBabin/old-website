@@ -1,15 +1,20 @@
 .header {
-    -webkit-backdrop-filter: blur(1px) opacity(75%);
-    backdrop-filter: blur(1px) opacity(75%);
-    @apply bg-transparent shadow flex flex-wrap justify-between p-3 items-center;
+    -webkit-backdrop-filter: blur(2px) opacity(75%);
+    backdrop-filter: blur(2px) opacity(75%);
+    @apply rounded-xl bg-transparent shadow flex flex-wrap justify-between p-3 items-center;
+}
+
+/* the grouping of the icon and my name */
+.header div {
+    @apply bg-white rounded-full flex flex-wrap justify-between items-center;
 }
 
 .main {
     @apply no-underline flex font-medium items-center mb-0;
 }
 
-.header a span {
-    @apply no-underline ml-1 text-2xl;
+.header span {
+    @apply ml-1 text-2xl;
 }
 
 .header nav {
