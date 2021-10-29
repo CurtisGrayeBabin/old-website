@@ -3,12 +3,22 @@ import {
     headerText
 } from '../styles/layout.module.css'
 import { StaticImage } from "gatsby-plugin-image"
+import { FaUserGraduate } from 'react-icons/fa';
+
+const leaf = {
+    'fontSize': '1.3rem',
+    'textAlign': 'center',
+    'width': '100%'
+  }
 
 const Credible = (props) => {
 
     return (
         <section>
-            <h1 className={headerText}>Achievements</h1>
+            <h1 className={headerText}>
+                Achievements
+                <FaUserGraduate style={leaf}/> 
+            </h1>
             <div style={{height: '4vh'}}></div>
             <StaticImage src="../images/udacity.jpg" alt="My Udacity Nanodegree certificate for completing their Full Stack JavaScript Developer program" />
             <div style={{height: '15vh'}}></div>

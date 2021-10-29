@@ -5,16 +5,17 @@ import Credible from '../components/credible'
 import Portfolio from '../components/portfolio'
 import { componentWrap } from '../styles/index.module.css'
 
+
 const IndexPage = () => {
   return (
     <Layout pageTitle="Home">
         <div className={componentWrap}>
           <Hero />
         </div>
-
+        
         <div className={componentWrap}>
-          <Credible />
-        </div>      
+          <Credible />  
+        </div>  
 
         <div className={componentWrap}>
           <Portfolio />
