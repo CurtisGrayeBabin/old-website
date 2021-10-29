@@ -2,16 +2,12 @@ import * as React from 'react';
 import {
     header,
     svg1,
-    main
+    main,
+    menu
 } from '../styles/header.module.css'
 import { BiMenuAltRight } from "react-icons/bi";
 import { Link } from 'gatsby'
 import Headroom from 'react-headroom'
-
-const styleForIcons = {
-    fontSize: '30px',
-    margin: 'auto 0 auto auto'
-}
 
 
 const Header = (props) => {
@@ -27,7 +23,7 @@ const Header = (props) => {
                     </div>
                 </Link>
 
-                <BiMenuAltRight style={styleForIcons}/>
+                <BiMenuAltRight className={menu}/>
             </header>
         </Headroom>
     )

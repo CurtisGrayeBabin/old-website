@@ -1,8 +1,14 @@
 .header {
     -webkit-backdrop-filter: blur(2px) opacity(75%);
     backdrop-filter: blur(2px) opacity(75%);
-    height: 60px;
+    height: 9vh;
     @apply px-3 rounded-b-xl bg-transparent shadow-md flex flex-wrap justify-between items-center;
+}
+
+.menu {
+    font-size: 30px;
+    margin: auto 0 auto auto;
+    @apply bg-white rounded-xl;
 }
 
 /* the grouping of the icon and my name */
