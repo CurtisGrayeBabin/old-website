@@ -8,7 +8,7 @@ const Portfolio = (props) => {
 
     return (
         <section>
-            <h1 className={headerText}>Applications</h1>
+            <h1 className={headerText}>Apps</h1>
         </section>
     )
 }   

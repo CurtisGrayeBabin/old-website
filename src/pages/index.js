@@ -5,7 +5,9 @@ import Credible from '../components/credible'
 import Portfolio from '../components/portfolio'
 
 const componentWrap = {
-    height: '100vh',
+    'marginTop': '5vh',
+    'marginBottom': '5vh',
+    'minHeight': '100vh',
     position:'static'
 }
 
