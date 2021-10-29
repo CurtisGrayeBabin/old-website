@@ -3,31 +3,22 @@ import Layout from '../components/layout'
 import Hero from '../components/hero'
 import Credible from '../components/credible'
 import Portfolio from '../components/portfolio'
-
-const componentWrap = {
-    'marginTop': '5vh',
-    'marginBottom': '5vh',
-    'minHeight': '100vh',
-    position:'static'
-}
+import { componentWrap } from '../styles/index.module.css'
 
 const IndexPage = () => {
   return (
     <Layout pageTitle="Home">
+        <div className={componentWrap}>
+          <Hero />
+        </div>
 
-      <div style={componentWrap}>
-        <Hero />
-      </div>
+        <div className={componentWrap}>
+          <Credible />
+        </div>      
 
-      <div style={componentWrap}>
-        <Credible />
-      </div>      
-
-      <div style={componentWrap}>
-        <Portfolio />
-      </div>
-
-      
+        <div className={componentWrap}>
+          <Portfolio />
+        </div>
     </Layout>
   )
 }

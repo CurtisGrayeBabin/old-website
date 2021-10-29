@@ -5,3 +5,10 @@
 .marginTop {
     @apply mt-12;
 }
+
+.componentWrap {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    min-height: 100vh;
+    position: static;
+}

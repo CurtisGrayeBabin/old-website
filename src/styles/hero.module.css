@@ -1,5 +1,5 @@
 .main {
-    @apply w-auto;
+    @apply w-full;
 }
 
 .main h1 {
@@ -17,7 +17,7 @@
 
 
 .main h2 {
-  @apply w-max ml-0 mr-auto hover:animate-pulse text-blue-500 text-xl font-medium mb-8;
+  @apply ml-0 mr-auto hover:animate-pulse text-blue-500 text-xl font-medium mb-8;
 }
 
 @keyframes bounce {
@@ -33,5 +33,10 @@
 
 
 .down-arrow {
-  @apply w-10 h-10 animate-bounce;
+  @apply h-10 animate-bounce;
+}
+
+
+.arrow-container {
+  @apply flex justify-between;
 }
