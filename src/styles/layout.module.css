@@ -1,3 +1,7 @@
 .layout {
     @apply font-sans w-5/6 sm:w-1/2 mx-auto;
 }
+
+.top {
+    @apply pt-10;
+}
