@@ -6,9 +6,11 @@
     @apply mt-12;
 }
 
-.componentWrap {
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+.heroWrap {
     min-height: 100vh;
-    position: static;
+    @apply pt-10;
+}
+
+.componentWrap {
+    min-height: 100vh;
 }

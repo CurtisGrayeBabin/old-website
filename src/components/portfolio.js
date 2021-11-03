@@ -1,21 +1,11 @@
 import * as React from 'react';
-import {
-    headerText
-} from '../styles/layout.module.css'
-import { BsFileEarmarkCodeFill } from 'react-icons/bs';
-
-const leaf = {
-    'fontSize': '1.3rem',
-    'textAlign': 'center',
-    'width': '100%'
-  }
+import { HiCode } from 'react-icons/hi';
+import { icon, top } from '../styles/icons.module.css'
 
 const Portfolio = (props) => {
-
     return (
-        <section>
-            <h1 className={headerText}>Apps</h1>
-            <BsFileEarmarkCodeFill style={leaf}/> 
+        <section className={top}>
+            <HiCode className={icon}/> 
         </section>
     )
 }   
