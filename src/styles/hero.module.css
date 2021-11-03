@@ -17,6 +17,8 @@
 
 
 .main h2 {
+  width: fit-content;
+  width: -moz-fit-content;
   @apply ml-0 mr-auto hover:animate-pulse text-blue-500 text-xl font-medium mb-8;
 }
 
