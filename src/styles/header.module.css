@@ -13,14 +13,18 @@
 
 /* the grouping of the icon and my name */
 .header div {
-    @apply bg-white rounded-full flex flex-wrap justify-between items-center;
+    @apply bg-white flex flex-wrap justify-between items-center;
 }
 
 .main {
     @apply no-underline flex font-medium items-center mb-0;
 }
 
-.header span {
+.main div {
+    @apply rounded-full;
+}
+
+.main div span {
     @apply ml-1 text-2xl;
 }
 
