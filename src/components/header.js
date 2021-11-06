@@ -6,8 +6,9 @@ import {
     menu
 } from '../styles/header.module.css'
 import { BiMenuAltRight } from "react-icons/bi";
-import { BsArrowBarRight } from "react-icons/bs";
-
+import { BsLinkedin, BsGithub, BsInstagram } from "react-icons/bs";
+import { FaUserGraduate } from 'react-icons/fa';
+import { HiCode } from 'react-icons/hi';
 import { Link } from 'gatsby'
 import Headroom from 'react-headroom'
 
@@ -36,6 +37,9 @@ const Header = (props) => {
         document.getElementById("menu").style.display = "none";
     }
 
+    const sidebarButton = {'margin':'1em 0.75em 0 0'}
+    const iconStyle = {'width':'100%','fontSize':'1.75rem'}
+
     return (
         <>
             <Headroom>
@@ -52,23 +56,48 @@ const Header = (props) => {
                     <button id="button" onClick={openOrCloseMenu}>
                         <BiMenuAltRight className={menu}/>
 
-                        <div id="menu" style={{display:'none'}}>
-                            <div style={{height:'100%','position':'fixed',right:'0px','backgroundColor':'white','display':'block'}}>
-                                <a href='#'>option 1</a>
-                                <br></br>
-                                <a href='#'>option 2</a>
-                                <br></br>
-                                <a href='#'>option 3</a>
-                            </div>
-                        </div>
-
                     </button>
 
-
                 </header>
+
             </Headroom>
 
-
+            {/* current 'side menu' that will be a component */}
+            <div id="menu" style={{display:'none'}}>
+                <div style={{height:'100%','position':'fixed',right:'0px','display':'block','zIndex':2}}>
+                    
+                    <div style={sidebarButton}>
+                        <a href="https://www.linkedin.com/in/curtisbabin/" target="_blank" rel="noreferrer">
+                            <BsLinkedin style={iconStyle}/>
+                        </a>
+                    </div>
+                    
+                    <div style={sidebarButton}>
+                        <a href="https://github.com/CurtisGrayeBabin" target="_blank" rel="noreferrer">
+                            <BsGithub style={iconStyle}/>
+                        </a>
+                    </div>
+                    
+                    <div style={sidebarButton}>
+                        <a href="https://www.instagram.com/curtis.g.babin/" target="_blank" rel="noreferrer">
+                        <BsInstagram style={iconStyle}/>
+                        </a>
+                    </div>
+                    
+                    <div style={sidebarButton}>
+                        <Link to="#credible">
+                            <FaUserGraduate style={iconStyle}/>
+                        </Link>
+                    </div>
+                    
+                    <div style={sidebarButton}>
+                        <Link to="#portfolio">
+                            <HiCode  style={iconStyle}/>
+                        </Link>
+                    </div>
+                    
+                </div>
+            </div>
         </>
     )
 }   

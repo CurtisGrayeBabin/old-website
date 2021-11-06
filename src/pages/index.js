@@ -18,11 +18,11 @@ const IndexPage = () => {
           <Hero />
         </div>
         
-        <div className={credibleWrap}>
+        <div className={credibleWrap} id="credible">
           <Credible />  
         </div>  
 
-        <div className={componentWrap}>
+        <div className={componentWrap} id="portfolio">
           <Portfolio />
         </div>
     </Layout>
