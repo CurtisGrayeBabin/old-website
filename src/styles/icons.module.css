@@ -5,5 +5,5 @@
 
 .iconWhite {
     font-size: 8rem;
-    @apply text-white mx-auto mb-10 pt-10;
+    @apply text-blue-100 mx-auto mb-10 pt-10;
 }

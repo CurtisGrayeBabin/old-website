@@ -8,7 +8,7 @@
 
 .heroWrap {
     min-height: 100vh;
-    @apply pt-10;
+    @apply p-7;
 }
 
 .componentWrap {
@@ -18,5 +18,5 @@
 .credibleWrap {
     min-height: 100vh;
     width: 100%;
-    @apply bg-blue-500;
+    @apply bg-blue-500 border-t-4 border-b-4 border-blue-100;
 }
