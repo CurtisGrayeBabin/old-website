@@ -37,7 +37,7 @@ const Header = (props) => {
         document.getElementById("menu").style.display = "none";
     }
 
-    const sidebarButton = {'margin':'1em 0.75em 0 0'}
+    const sidebarButton = {'margin':'2vh 0 0 0'}
     const iconStyle = {'width':'100%','fontSize':'1.75rem'}
 
     return (
@@ -64,7 +64,7 @@ const Header = (props) => {
 
             {/* current 'side menu' that will be a component */}
             <div id="menu" style={{display:'none'}}>
-                <div style={{height:'100%','position':'fixed',right:'0px','display':'block','zIndex':2}}>
+                <div style={{height:'100%','position':'fixed',right:'0px','display':'block','zIndex':2,'width': '10vw'}}>
                     
                     <div style={sidebarButton}>
                         <a href="https://www.linkedin.com/in/curtisbabin/" target="_blank" rel="noreferrer">
@@ -92,7 +92,7 @@ const Header = (props) => {
                     
                     <div style={sidebarButton}>
                         <Link to="#portfolio">
-                            <HiCode  style={iconStyle}/>
+                            <HiCode style={iconStyle}/>
                         </Link>
                     </div>
                     
