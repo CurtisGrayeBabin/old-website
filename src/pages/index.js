@@ -5,7 +5,8 @@ import Credible from '../components/credible'
 import Portfolio from '../components/portfolio'
 import { 
   heroWrap,
-  componentWrap 
+  componentWrap,
+  credibleWrap
 } from '../styles/index.module.css'
 
 
@@ -17,7 +18,7 @@ const IndexPage = () => {
           <Hero />
         </div>
         
-        <div className={componentWrap}>
+        <div className={credibleWrap}>
           <Credible />  
         </div>  
 

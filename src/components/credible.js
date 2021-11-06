@@ -10,6 +10,7 @@ const Credible = (props) => {
             <FaUserGraduate className={icon}/> 
             
             <StaticImage src="../images/udacity.jpg" alt="My Udacity Nanodegree certificate for completing their Full Stack JavaScript Developer program" />
+            <div style={{'padding':'2vh 0 2vh 0'}}></div>
             <StaticImage src="../images/codecademycert.jpg" alt="My Codecademy certificate for completing their Web Development Career Path program" />
             <div style={{'padding':'2vh 0 2vh 0'}}></div>
             <StaticImage src="../images/degree.jpg" alt="My Bachelor of Science degree in Computer Science from University of California, Irvine" />

@@ -1,4 +1,4 @@
-.layout {
+.layout section {
     @apply font-sans w-5/6 sm:w-1/2 mx-auto;
 }
 
