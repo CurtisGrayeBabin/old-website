@@ -8,12 +8,12 @@
 .menu {
     font-size: 30px;
     margin: auto 0 auto auto;
-    @apply bg-white rounded-xl;
+    @apply rounded-xl;
 }
 
 /* the grouping of the icon and my name */
 .header div {
-    @apply bg-white flex flex-wrap justify-between items-center;
+    @apply flex flex-wrap justify-between items-center;
 }
 
 .main {
