@@ -1,5 +1,5 @@
 import * as React from 'react'
-import Header from './navbar/header.js'
+import Navbar from './navbar/navbar.js'
 import { Helmet } from 'react-helmet'
 import { layout } from '../styles/layout.module.css'
 
@@ -16,7 +16,7 @@ const Layout = ({ pageTitle, children }) => {
           <link rel="manifest" crossorigin="use-credentials" href="/manifest.webmanifest" />
         </Helmet>
         
-        <Header />
+        <Navbar />
         
         <main className={layout}>
           {children}

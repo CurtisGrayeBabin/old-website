@@ -12,7 +12,7 @@ import { Link } from 'gatsby'
 import Headroom from 'react-headroom'
 import SideMenu from './sideMenu'
 
-const Header = (props) => {
+const Navbar = (props) => {
 
     // using state to manage whether the side menu is open or not
     const [open, setOpen] = useState(false);
@@ -51,4 +51,4 @@ const Header = (props) => {
     )
 }   
 
-export default Header;
+export default Navbar
