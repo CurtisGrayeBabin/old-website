@@ -52,10 +52,10 @@ const Header = (props) => {
                             <span style={{'userSelect': 'none'}}>Curtis Babin</span>
                         </div>
                     </Link>
-
+                    
+                    {/* todo: switch icon when menu is active */}
                     <button id="button" onClick={openOrCloseMenu}>
                         <BiMenuAltRight className={menu}/>
-
                     </button>
 
                 </header>
@@ -64,8 +64,7 @@ const Header = (props) => {
 
             {/* current 'side menu' that will be a component */}
             <div id="menu" style={{display:'none'}}>
-                <div style={{height:'100%','position':'fixed',right:'0px','display':'block','zIndex':2,'width': '10vw'}}>
-                    
+                <div style={{height:'81%','position':'fixed',right:'0px','display':'flex','flexDirection':'column','justifyContent':'space-between',zIndex:2,'width': '8vw'}}>
                     <div style={sidebarButton}>
                         <a href="https://www.linkedin.com/in/curtisbabin/" target="_blank" rel="noreferrer">
                             <BsLinkedin style={iconStyle}/>
@@ -95,9 +94,9 @@ const Header = (props) => {
                             <HiCode style={iconStyle}/>
                         </Link>
                     </div>
-                    
                 </div>
             </div>
+            
         </>
     )
 }   
