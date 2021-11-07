@@ -1,9 +1,7 @@
 import * as React from 'react'
-import Header from './header.js'
+import Header from './navbar/header.js'
 import { Helmet } from 'react-helmet'
-import {
-  layout
-} from '../styles/layout.module.css'
+import { layout } from '../styles/layout.module.css'
 
 
 const Layout = ({ pageTitle, children }) => {
@@ -18,7 +16,7 @@ const Layout = ({ pageTitle, children }) => {
           <link rel="manifest" crossorigin="use-credentials" href="/manifest.webmanifest" />
         </Helmet>
         
-        <Header></Header>
+        <Header />
         
         <main className={layout}>
           {children}
