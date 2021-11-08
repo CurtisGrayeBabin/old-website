@@ -11,15 +11,15 @@ const Credible = (props) => {
             <FaUserGraduate className={iconWhite}/> 
             
             <div className={imgBorder}>
-                <StaticImage src="../images/udacity.jpg" alt="My Udacity Nanodegree certificate for completing their Full Stack JavaScript Developer program" />
+                <StaticImage src="../images/udacity.jpg" alt="Here is my Udacity Nanodegree certificate for completing their Full Stack JavaScript Developer program" />
             </div>
             
             <div className={imgBorder}>
-                <StaticImage src="../images/codecademycert.jpg" alt="My Codecademy certificate for completing their Web Development Career Path program" />
+                <StaticImage src="../images/codecademycert.jpg" alt="Here is my Codecademy certificate for completing their Web Development Career Path program" />
             </div>
             
             <div className={imgBorder}>
-                <StaticImage src="../images/degree.jpg" alt="My Bachelor of Science degree in Computer Science from University of California, Irvine" />
+                <StaticImage src="../images/degree.jpg" alt="Here is my Bachelor of Science degree in Computer Science from University of California, Irvine" />
             </div>
 
         </section>
