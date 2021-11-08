@@ -8,7 +8,7 @@
 
 .heroWrap {
     min-height: 100vh;
-    @apply p-7;
+    @apply pt-7;
 }
 
 .componentWrap {
