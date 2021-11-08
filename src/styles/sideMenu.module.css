@@ -1,5 +1,5 @@
 .sideMenu {
-    height: 81%;
+    min-height: 91vh;
     position: fixed;
     right: 0px;
     display: flex;

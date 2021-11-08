@@ -5,7 +5,6 @@ import { sidebarButton } from '../../styles/sideMenu.module.css'
 // some links are internal, and some are external (social media profiles)
 // if a link prop isn't passed then the MenuLink is for an internal page or section
 const MenuLink = (props) => {
-
     return (
         <div className={sidebarButton}>
             {

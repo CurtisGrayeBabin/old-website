@@ -5,7 +5,7 @@ import {
     svg1,
     main,
     menu
-} from '../../styles/header.module.css'
+} from '../../styles/navbar.module.css'
 import { BiMenuAltRight } from "react-icons/bi"
 import { IoMdClose } from 'react-icons/io'
 import { Link } from 'gatsby'

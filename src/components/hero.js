@@ -8,7 +8,6 @@ import {
 
 const Hero = (props) => {
 
-    /* this is the only way I'm able to get animations to work */
     return (
         <section className={main}>
             <h1>I create single page apps & fast, SEO-friendly websites</h1>

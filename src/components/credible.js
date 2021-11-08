@@ -10,7 +10,6 @@ const Credible = (props) => {
             {/* decided to use an icon as the symbol for a section header */}
             <FaUserGraduate className={iconWhite}/> 
             
-        
             <div className={imgBorder}>
                 <StaticImage src="../images/udacity.jpg" alt="My Udacity Nanodegree certificate for completing their Full Stack JavaScript Developer program" />
             </div>

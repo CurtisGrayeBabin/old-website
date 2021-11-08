@@ -2,7 +2,7 @@
     -webkit-backdrop-filter: blur(2px) opacity(75%);
     backdrop-filter: blur(2px) opacity(75%);
     
-    height: 9vh;
+    min-height: 9vh;
     @apply px-3 rounded-b-xl bg-transparent shadow-md flex flex-wrap justify-between items-center;
 }
 
