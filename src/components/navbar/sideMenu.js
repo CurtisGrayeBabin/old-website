@@ -17,7 +17,7 @@ const SideMenu = (props) => {
     const portfolio = <Link to="#portfolio"><HiCode className={iconStyle}/></Link>
 
     return (
-        <div className={sideMenu} style={props.open ? {} : {display:'none'}}>
+        <div className={sideMenu} style={props.open ? {width: '3rem'} : {width:0}}>
             
             <MenuLink icon={linkedIn} link={linkedInLink}/>
             <MenuLink icon={gitHub} link={gitHubLink}/>
