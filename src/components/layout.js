@@ -12,11 +12,16 @@ const Layout = ({ pageTitle, children }) => {
         <Helmet>
           <meta charSet="utf-8" />
           <title>{pageTitle}</title>
+          <meta name="description" content="The personal website of Curtis Babin, a Node.js developer, that contains his education, work experience, and services offered" />
           <link rel="canonical" href="https://www.curtisbabin.com"/>
+          <meta name="author" content="Curtis Babin"></meta>
+          <meta name="keywords" content="Curtis, Babin, front, end, website, developer, full, stack, software, engineer, JavaScript, Node, react, Udacity, graduate"></meta>
           <link rel="manifest" crossorigin="use-credentials" href="/manifest.webmanifest" />
         </Helmet>
         
-        <Navbar />
+        <header>
+          <Navbar />
+        </header>
         
         <main className={layout}>
           {children}

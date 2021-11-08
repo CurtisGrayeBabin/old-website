@@ -11,6 +11,7 @@ import { IoMdClose } from 'react-icons/io'
 import { Link } from 'gatsby'
 import Headroom from 'react-headroom'
 import SideMenu from './sideMenu'
+//import TransitionGroup from 'react-transition-group/TransitionGroup'
 
 const Navbar = (props) => {
 

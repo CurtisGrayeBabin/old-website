@@ -18,7 +18,7 @@ const IndexPage = () => {
           <Hero />
         </div>
         
-        <div className={credibleWrap} id="credible">
+        <div className={credibleWrap} id="education">
           <Credible />  
         </div>  
 

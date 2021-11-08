@@ -13,7 +13,7 @@ const SideMenu = (props) => {
     const [gitHub,gitHubLink] = [<BsGithub className={iconStyle}/>,"https://github.com/CurtisGrayeBabin"]
     const [instagram,instagramLink] = [<BsInstagram className={iconStyle}/>,"https://www.instagram.com/curtis.g.babin/"]
     
-    const credible = <Link to="#credible"><FaUserGraduate className={iconStyle}/></Link>
+    const credible = <Link to="#education"><FaUserGraduate className={iconStyle}/></Link>
     const portfolio = <Link to="#portfolio"><HiCode className={iconStyle}/></Link>
 
     return (
