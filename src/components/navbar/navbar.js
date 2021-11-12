@@ -18,9 +18,7 @@ const Navbar = (props) => {
     // using state to manage whether the side menu is open or not
     const [open, setOpen] = useState(false);
 
-    const openOrCloseMenu = () => {
-        setOpen(open => !open)
-    }
+    const openOrCloseMenu = () => setOpen(open => !open)
 
     return (
         <>

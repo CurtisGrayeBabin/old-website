@@ -5,3 +5,7 @@
 .top {
     @apply pt-10;
 }
+
+.oneLiner {
+    font-size: 4rem;
+}

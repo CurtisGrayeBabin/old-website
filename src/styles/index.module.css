@@ -8,7 +8,8 @@
 
 .heroWrap {
     min-height: 100vh;
-    @apply pt-7;
+    padding-top: 3vh;
+    /*@apply pt-7;*/
 }
 
 .componentWrap {
