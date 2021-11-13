@@ -1,13 +1,9 @@
 import * as React from "react"
-import Layout from '../components/layout'
-import Hero from '../components/hero'
-import Credible from '../components/credible'
-import Portfolio from '../components/portfolio'
-import { 
-  heroWrap,
-  componentWrap,
-  credibleWrap
-} from '../styles/index.module.css'
+import Layout from '../components/utilities/layout'
+import Hero from '../components/sections/hero/hero'
+import Credible from '../components/sections/education/education'
+import Portfolio from '../components/sections/portfolio/portfolio'
+import { heroWrap, componentWrap, educationWrap } from '../global styles/index.module.css'
 
 
 const IndexPage = () => {
@@ -18,7 +14,7 @@ const IndexPage = () => {
           <Hero />
         </div>
         
-        <div className={credibleWrap} id="education">
+        <div className={educationWrap} id="education">
           <Credible />  
         </div>  
 

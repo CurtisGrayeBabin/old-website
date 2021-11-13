@@ -1,7 +1,7 @@
 import * as React from 'react'
-import Navbar from './navbar/navbar.js'
+import Navbar from '../navbar/navbar.js'
 import { Helmet } from 'react-helmet'
-import { layout } from '../styles/layout.module.css'
+import { layout } from '../../global styles/layout.module.css'
 
 // format of each page (not just Home page)
 const Layout = ({ pageTitle, children }) => {

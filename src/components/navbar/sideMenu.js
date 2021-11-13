@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import { BsLinkedin, BsGithub, BsInstagram } from "react-icons/bs";
 import { FaUserGraduate } from 'react-icons/fa';
 import { HiCode } from 'react-icons/hi';
-import { sideMenu, iconStyle } from '../../styles/sideMenu.module.css'
+import { sideMenu, iconStyle } from './sideMenu.module.css'
 import MenuLink from './menuLink'
 
 // the menu that displays once the user clicks on the upper right icon in the navbar

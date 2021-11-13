@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { sidebarButton } from '../../styles/sideMenu.module.css'
+import { sidebarButton } from './sideMenu.module.css'
 
 // these are the links in the side menu
 // some links are internal, and some are external (social media profiles)

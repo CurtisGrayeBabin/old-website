@@ -9,14 +9,13 @@
 .heroWrap {
     min-height: 100vh;
     padding-top: 3vh;
-    /*@apply pt-7;*/
 }
 
 .componentWrap {
     min-height: 100vh;
 }
 
-.credibleWrap {
+.educationWrap {
     min-height: 100vh;
     width: 100%;
     @apply bg-blue-500 border-t-4 border-b-4 border-blue-100;

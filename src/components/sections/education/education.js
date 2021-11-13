@@ -1,10 +1,11 @@
 import * as React from 'react';
 import { StaticImage } from "gatsby-plugin-image"
 import { FaUserGraduate } from 'react-icons/fa';
-import { iconWhite } from '../styles/icons.module.css'
-import { imgBorder } from '../styles/credible.module.css'
 
-const Credible = (props) => {
+import { iconWhite } from '../../../global styles/icons.module.css'
+import { imgBorder } from './education.module.css'
+
+const Education = (props) => {
     return (
         <section>
             {/* decided to use an icon as the symbol for a section header */}
@@ -26,4 +27,4 @@ const Credible = (props) => {
     )
 }   
 
-export default Credible;
+export default Education

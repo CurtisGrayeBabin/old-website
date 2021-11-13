@@ -1,9 +1,7 @@
 import * as React from "react"
-import Layout from '../components/layout'
-import {
-  error
-} from '../styles/404.module.css'
-import { top, oneLiner } from '../styles/layout.module.css'
+import Layout from '../components/utilities/layout'
+import { error } from '../global styles/404.module.css'
+import { top, oneLiner } from '../global styles/layout.module.css'
 import { Link } from 'gatsby'
 
 
