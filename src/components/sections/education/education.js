@@ -9,7 +9,9 @@ const Education = (props) => {
     return (
         <section>
             {/* decided to use an icon as the symbol for a section header */}
-            <FaUserGraduate className={iconWhite}/> 
+            <h1>
+                <FaUserGraduate className={iconWhite}/> 
+            </h1>
             
             <div className={imgBorder}>
                 <StaticImage src="../../../images/udacity.jpg" alt="Here is my Udacity Nanodegree certificate for completing their Full Stack JavaScript Developer program" />

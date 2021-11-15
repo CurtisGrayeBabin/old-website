@@ -1,6 +1,6 @@
 .main {
   padding: 2vh 2vh 2vh 2vh;
-    @apply w-full;
+  @apply w-full;
 }
 
 .main h1 {

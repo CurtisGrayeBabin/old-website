@@ -1,9 +1,9 @@
 .icon {
-    font-size: 4rem;
-    @apply mx-auto;
+    font-size: 5rem;
+    @apply mx-auto mb-10 mt-10;
 }
 
 .iconWhite {
-    font-size: 6rem;
-    @apply text-blue-100 mx-auto mb-10 pt-10;
+    font-size: 5rem;
+    @apply text-blue-100 mx-auto mb-10 mt-10;
 }
