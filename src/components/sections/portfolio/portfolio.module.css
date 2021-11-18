@@ -1,16 +1,32 @@
 .portfolio article h2 {
     text-align: center;
     font-weight: bold;
+    margin-bottom: 2vh;
+    @apply text-blue-500 text-xl;
 }
 
 .portfolio article ul {
     list-style-type: circle;
-    padding: 0 3vw 0 3vw;
+    padding: 0 2vw 0 2vw;
+    margin: 2vh;
 }
 
 .projectBorder {
-    padding: 2vh 2vh 2vh 2vh;
+    padding: 2vh 2vh 0vh 2vh;
     margin: 0 0 4vh 0;
-    border-width: .35rem;
-    @apply border-blue-500 shadow-md;
+    border-width: .35em;
+    @apply border-blue-500 shadow-xl text-xl leading-relaxed;
 }
+
+.solid {
+    margin-top: 2vh;
+    @apply border-t-2 border-blue-500;
+}
+
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    margin: 2vh;
+}
+

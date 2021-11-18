@@ -3,7 +3,8 @@ import { Link } from 'gatsby'
 import { BsLinkedin, BsGithub, BsInstagram } from "react-icons/bs";
 import { FaUserGraduate } from 'react-icons/fa';
 import { HiCode } from 'react-icons/hi';
-import { sideMenu, iconStyle } from './sideMenu.module.css'
+import { sideMenu } from './sideMenu.module.css'
+import { iconStyle } from '../../global styles/icons.module.css'
 import MenuLink from './menuLink'
 
 // the menu that displays once the user clicks on the upper right icon in the navbar
@@ -17,7 +18,7 @@ const SideMenu = (props) => {
     const portfolio = <Link to="/#portfolio"><HiCode className={iconStyle}/></Link>
 
     return (
-        <div className={sideMenu} style={props.open ? {width: '3rem'} : {width:0}}>
+        <div className={sideMenu} style={props.open ? {width: '2em'} : {width:0}}>
             
             <MenuLink icon={linkedIn} link={linkedInLink}/>
             <MenuLink icon={gitHub} link={gitHubLink}/>

@@ -3,23 +3,46 @@
 @tailwind utilities;
 
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 600px) {
     html, 
     body {
         margin: 0;
         width: 100vw;
         height: 100vh;
         scroll-behavior: smooth;
-        font-size: 4vw;
+        font-size: 1em;
     }
   }
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 600px) and (max-width: 768px) {
     html, 
     body {
         margin: 0;
         width: 100vw;
         height: 100vh;
         scroll-behavior: smooth;
+        font-size: 1.35em;
+    }
+  }
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+    html, 
+    body {
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+        scroll-behavior: smooth;
+        font-size: 1.45em;
+    }
+  }
+
+@media only screen and (min-width: 900px) {
+    html, 
+    body {
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+        scroll-behavior: smooth;
+        font-size: 1.2em;
     }
   }

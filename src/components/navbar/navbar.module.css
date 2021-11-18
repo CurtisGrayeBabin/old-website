@@ -8,9 +8,8 @@
 
 
 .menu {
-    font-size: 2rem;
     margin: auto 0 auto auto;
-    @apply rounded-xl;
+    @apply rounded-xl text-2xl;
 }
 
 /* the grouping of the icon and my name */
@@ -27,7 +26,7 @@
 }
 
 .main div span {
-    @apply ml-1 text-2xl;
+    @apply ml-1 text-xl;
 }
 
 .header nav {
