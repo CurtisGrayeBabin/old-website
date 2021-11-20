@@ -4,3 +4,9 @@
     border-width: .35rem;
     @apply border-blue-100 shadow-md;
 }
+
+/* for accessibility - hides the H1 text of each section and makes room to display the H2 icon */
+.adaHeader {
+  visibility: hidden;
+  font-size: 0;
+}

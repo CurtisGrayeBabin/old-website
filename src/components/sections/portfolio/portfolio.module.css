@@ -2,7 +2,7 @@
     text-align: center;
     font-weight: bold;
     margin-bottom: 2vh;
-    @apply text-blue-500 text-xl;
+    @apply text-xl;
 }
 
 .portfolio article ul {
@@ -30,3 +30,8 @@
     margin: 2vh;
 }
 
+/* for accessibility - hides the H1 text of each section and makes room to display the H2 icon */
+.adaHeader {
+    visibility: hidden;
+    font-size: 0;
+}

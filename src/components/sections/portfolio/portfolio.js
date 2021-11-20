@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { HiCode } from 'react-icons/hi';
 import { icon } from '../../../global styles/icons.module.css'
-import { portfolio } from './portfolio.module.css'
+import { portfolio, adaHeader } from './portfolio.module.css'
 import Project from './Project'
 import { StaticImage } from "gatsby-plugin-image"
 
@@ -23,9 +23,12 @@ const Portfolio = (props) => {
     return (
 
         <section className={portfolio}>
-            <h1>
-                <HiCode className={icon}/> 
+            <h1 className={adaHeader}>
+                Portfolio
             </h1>
+            <h2>
+                <HiCode className={icon}/> 
+            </h2>
 
 
             <Project 
