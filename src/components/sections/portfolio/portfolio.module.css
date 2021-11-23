@@ -1,8 +1,7 @@
 .portfolio article h2 {
     text-align: center;
-    font-weight: bold;
     margin-bottom: 2vh;
-    @apply text-xl;
+    @apply text-xl text-blue-500;
 }
 
 .portfolio article ul {
@@ -11,12 +10,25 @@
     margin: 2vh;
 }
 
+/* 
+the tailwind blue-100 color is #dbeafe 
+the tailwind blue-500 color is #3b82f6 
+*/
 .projectBorder {
-    padding: 2vh 2vh 0vh 2vh;
-    margin: 0 0 4vh 0;
-    border-width: .35em;
-    @apply border-blue-500 shadow-xl text-xl leading-relaxed;
+    box-shadow: .2rem .4rem .2rem #a0a0a0;
+    background-image: linear-gradient(120deg, #ffffff, #3b82f6);
+    border-radius: .35rem;
+    padding: .35rem;
+    display: inline-block;
+    position: relative;
 }
+
+.cardInfo {
+    border-radius: .35rem;
+    padding: 2vh 2vh 2vh 2vh;
+    @apply text-xl border-blue-500 text-xl leading-relaxed bg-white;
+}
+
 
 .solid {
     margin-top: 2vh;
@@ -27,7 +39,7 @@
 .links {
     display: flex;
     justify-content: space-around;
-    margin: 2vh;
+    margin: 2vh 2vh 0 2vh;
 }
 
 /* for accessibility - hides the H1 text of each section and makes room to display the H2 icon */

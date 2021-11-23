@@ -7,6 +7,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Portfolio = (props) => {
 
+    // card content below the image
     const storeDescription = (
         <ul>
             <li>Angular e-commerce app</li>
@@ -15,7 +16,6 @@ const Portfolio = (props) => {
         </ul>
     )
 
-            
     const storeImg = <StaticImage src="../../../images/store.png" alt="An image of my Angular e-commerce application" />
 
 
@@ -23,13 +23,9 @@ const Portfolio = (props) => {
     return (
 
         <section className={portfolio}>
-            <h1 className={adaHeader}>
-                Portfolio
-            </h1>
-            <h2>
-                <HiCode className={icon}/> 
-            </h2>
-
+            {/* accessible header */}
+            <h1 className={adaHeader}>Portfolio</h1>
+            <h2><HiCode className={icon}/></h2>
 
             <Project 
                 liveUrl="https://store.curtisbabin.com"
@@ -38,8 +34,8 @@ const Portfolio = (props) => {
                 img={storeImg}
                 repoLink="https://github.com/CurtisGrayeBabin/my-store"
             />
+            <div style={{height: '50vh'}}></div>
 
-            
         </section>
     )
 }   

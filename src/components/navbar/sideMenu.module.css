@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: space-between;
     z-index: 2;
-    padding-right: 0.75rem;
+    padding-right: 0.25rem;
     width: 0;
     transition: 0.5s;
     -webkit-transition: 0.5s;
