@@ -2,7 +2,7 @@
     padding: 2vh 2vh 2vh 2vh;
     margin: 0 0 4vh 0;
     border-width: .35rem;
-    @apply border-blue-100 shadow-md;
+    @apply border-blue-100 shadow-2xl;
 }
 
 /* for accessibility - hides the H1 text of each section and makes room to display the H2 icon */
