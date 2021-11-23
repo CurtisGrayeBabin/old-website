@@ -10,13 +10,15 @@ const Project = ({liveUrl, projectTitle, description, img, repoLink}) => {
             <div className={cardInfo}>
 
                 <h2><a href={liveUrl} target="_">{projectTitle}</a></h2>
-
                 
                 <div>{img}</div>
 
                 <hr className={solid}></hr>
 
                 {description}
+
+                <hr className={solid}></hr>
+
 
                 <div className={links}>
                     <a href={repoLink} target="_blank" rel="noreferrer">
