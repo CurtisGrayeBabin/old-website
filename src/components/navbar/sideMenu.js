@@ -5,6 +5,7 @@ import { FaUserGraduate } from 'react-icons/fa';
 import { HiCode } from 'react-icons/hi';
 import { sideMenu } from './sideMenu.module.css'
 import { iconStyle } from '../../global styles/icons.module.css'
+import { hideBlueBox } from '../../global styles/layout.module.css'
 import MenuLink from './menuLink'
 
 // the menu that displays once the user clicks on the upper right icon in the navbar
@@ -20,12 +21,12 @@ const SideMenu = (props) => {
     return (
         <div className={sideMenu} style={props.open ? {width: '2em'} : {width:0}}>
             
-            <MenuLink icon={linkedIn} link={linkedInLink}/>
+            <MenuLink icon={linkedIn} link={linkedInLink} className={hideBlueBox}/>
             <MenuLink icon={gitHub} link={gitHubLink}/>
             <MenuLink icon={instagram} link={instagramLink}/>
 
-            <MenuLink icon={credible}/>
-            <MenuLink icon={portfolio}/>
+            <MenuLink icon={credible} className={hideBlueBox}/>
+            <MenuLink icon={portfolio} className={hideBlueBox}/>
 
         </div>
     );

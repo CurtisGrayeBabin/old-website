@@ -41,6 +41,7 @@
 
 
 .arrow-container {
+  -webkit-tap-highlight-color: transparent;
   user-select: none;
   width: fit-content;
   block-size: fit-content;

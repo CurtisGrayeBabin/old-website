@@ -9,3 +9,9 @@
 .oneLiner {
     font-size: 4rem;
 }
+
+/* self-explanatory, no? ;p */
+.hideBlueBox{
+    userSelect: none;
+    -webkit-tap-highlight-color: transparent;
+}

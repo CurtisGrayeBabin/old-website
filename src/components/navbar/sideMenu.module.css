@@ -8,13 +8,15 @@
     z-index: 2;
     padding-right: 0.25rem;
     width: 0;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -o-transition: 0.5s;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
 }
 
 
 .sidebarButton {
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
     margin: 5vh 0 0 0;
 }
