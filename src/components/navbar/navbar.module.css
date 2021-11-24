@@ -1,15 +1,14 @@
-
 .header {
     -webkit-backdrop-filter: blur(2px) opacity(75%);
     backdrop-filter: blur(2px) opacity(75%);
     
-    @apply px-3 py-3 rounded-b-xl bg-transparent shadow flex flex-wrap justify-between items-center;
+    @apply pl-2 pr-0 py-1 rounded-b-xl bg-transparent shadow flex flex-wrap justify-between items-center;
 }
 
 
 .menu {
-    margin: auto 0 auto auto;
-    @apply rounded-xl text-2xl;
+    font-size: 2rem;
+    @apply rounded-full;
 }
 
 /* the grouping of the icon and my name */
@@ -28,8 +27,10 @@
 }
 
 .main div span {
-    @apply ml-1 text-xl;
+    font-size: 1.35rem;
+    @apply ml-1;
 }
+
 
 .header nav {
     @apply mr-0 ml-auto flex flex-wrap items-center justify-center;
@@ -41,5 +42,17 @@
 }
 
 .svg1 {
-    @apply w-7 h-7 p-0.5 text-white bg-blue-500 rounded-full;
+    @apply w-7 h-7 text-white bg-blue-500 rounded-full;
+}
+
+.button {
+    -webkit-tap-highlight-color: transparent;
+    padding: .25rem;
+}
+
+/* want hover to display on desktop devices */
+@media (hover: hover) {
+    .button:hover {
+        @apply bg-blue-100 rounded-full;
+    }
 }

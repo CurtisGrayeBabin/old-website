@@ -1,22 +1,31 @@
 .sideMenu {
     min-height: 50vh;
     position: fixed;
-    right: 0px;
+    right: 0rem;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
     z-index: 2;
-    padding-right: 0.25rem;
-    width: 0;
-    transition: 0.15s;
-    -webkit-transition: 0.15s;
-    -moz-transition: 0.15s;
-    -o-transition: 0.15s;
+    max-width: 0;
+    transition: max-width 0.15s;
+    -webkit-transition: max-width 0.15s;
+    -moz-transition: max-width 0.15s;
+    -o-transition: max-width 0.15s;
+
+    margin-top: 2rem;
 }
 
 
+/* padding: 0.125rem 0.25rem; */
 .sidebarButton {
-    user-select: none;
+    padding: 0.25rem;
     -webkit-tap-highlight-color: transparent;
-    margin: 5vh 0 0 0;
+}
+
+@media (hover: hover) {
+    .sidebarButton:hover {
+        @apply bg-blue-100 rounded-full;
+    }
 }

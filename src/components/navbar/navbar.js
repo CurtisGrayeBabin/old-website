@@ -4,7 +4,8 @@ import {
     header,
     svg1,
     main,
-    menu
+    menu,
+    button
 } from './navbar.module.css'
 import { BiMenuAltRight } from "react-icons/bi"
 import { IoMdClose } from 'react-icons/io'
@@ -34,7 +35,7 @@ const Navbar = (props) => {
                         </div>
                     </Link>
                     
-                    <button id="button" onClick={openOrCloseMenu} className={hideBlueBox}>
+                    <button id="button" onClick={openOrCloseMenu} className={button}>
                         {
                             // side menu icon changes whether the menu is open or not
                             open ? <IoMdClose className={menu}/> : <BiMenuAltRight className={menu}/>

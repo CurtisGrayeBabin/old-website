@@ -3,15 +3,20 @@
 }
 
 .top {
-    padding-top: 2rem;
+    padding-top: 2em;
 }
 
 .oneLiner {
-    font-size: 4rem;
+    font-size: 4em;
 }
 
-/* self-explanatory, no? ;p */
+/* make buttons non-highlightable */
 .hideBlueBox{
-    userSelect: none;
+    user-select: none;
     -webkit-tap-highlight-color: transparent;
+}
+
+.hideBlueBox a:hover {
+    border-radius: 50%;
+    @apply bg-blue-100;
 }

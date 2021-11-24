@@ -42,6 +42,20 @@ the tailwind blue-500 color is #3b82f6
     margin: 2vh 2vh 0 2vh;
 }
 
+.links a {
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    padding: .5em;
+}
+
+@media (hover: hover) {
+    .links a:hover {
+        border-radius: 50%;
+        @apply bg-blue-100;
+    }
+}
+
+
 /* for accessibility - hides the H1 text of each section and makes room to display the H2 icon */
 .adaHeader {
     visibility: hidden;
