@@ -1,9 +1,10 @@
 import * as React from "react"
 import Layout from '../components/utilities/layout'
 import Hero from '../components/sections/hero/hero'
-import Credible from '../components/sections/education/education'
+import Education from '../components/sections/education/education'
 import Portfolio from '../components/sections/portfolio/portfolio'
-import { heroWrap, componentWrap, educationWrap } from '../global styles/index.module.css'
+import Contact from '../components/sections/contact/contact'
+import { heroWrap, componentWrap, blueBackgroundWrap } from '../global styles/index.module.css'
 
 
 const IndexPage = () => {
@@ -14,13 +15,18 @@ const IndexPage = () => {
           <Hero />
         </div>
         
-        <div className={educationWrap} id="education">
-          <Credible />  
+        <div className={blueBackgroundWrap} id="education">
+          <Education />  
         </div>  
 
         <div className={componentWrap} id="portfolio">
           <Portfolio />
         </div>
+        
+        <div className={blueBackgroundWrap} id="contact" style={{'marginTop':'2rem'}}>
+          <Contact />
+        </div>
+
     </Layout>
   )
 }

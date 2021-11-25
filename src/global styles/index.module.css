@@ -15,7 +15,12 @@
     min-height: 100vh;
 }
 
-.educationWrap {
+.blueBackgroundWrap {
     min-height: 100vh;
     @apply bg-blue-500 border-t-4 border-b-4 border-blue-100;
+}
+
+.adaHeader {
+    visibility: hidden;
+    font-size: 0;
 }

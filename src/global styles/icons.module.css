@@ -2,7 +2,7 @@
     @apply mx-auto mb-10 mt-10 text-5xl;
 }
 
-.iconWhite {
+.iconLight {
     @apply text-blue-100 mx-auto mb-10 mt-10 text-5xl;
 }
 

@@ -17,8 +17,6 @@ const Project = ({liveUrl, projectTitle, description, img, repoLink}) => {
 
                 {description}
 
-
-
                 <div className={links}>
                     <a href={repoLink} target="_blank" rel="noreferrer">
                         <BsGithub className={iconStyle}/>
