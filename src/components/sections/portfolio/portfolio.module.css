@@ -53,6 +53,10 @@ the tailwind blue-500 color is #3b82f6
         border-radius: 50%;
         @apply bg-blue-100;
     }
+
+    .cardInfo h2 a:hover {
+        text-decoration: underline dotted;
+    }
 }
 
 
