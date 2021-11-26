@@ -35,13 +35,14 @@
 
 
 .down-arrow {
+  border-radius: 50%;
+  transition: all 0.25s ease;
   @apply h-10 animate-bounce;
 }
 
 
 @media (hover: hover) {
   .down-arrow:hover {
-      border-radius: 50%;
       @apply bg-blue-100;
   }
 }

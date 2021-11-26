@@ -43,6 +43,8 @@ the tailwind blue-500 color is #3b82f6
 }
 
 .links a {
+    border-radius: 50%;
+    transition: all 0.25s ease;
     -webkit-tap-highlight-color: transparent;
     user-select: none;
     padding: .5rem;
@@ -50,7 +52,6 @@ the tailwind blue-500 color is #3b82f6
 
 @media (hover: hover) {
     .links a:hover {
-        border-radius: 50%;
         @apply bg-blue-100;
     }
 

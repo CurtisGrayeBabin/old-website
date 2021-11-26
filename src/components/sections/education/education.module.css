@@ -2,5 +2,5 @@
     padding: 1rem 1rem 1rem 1rem;
     margin: 0 0 2rem 0;
     border-width: .35rem;
-    @apply border-blue-100 shadow-xl;
+    @apply border-blue-100 shadow-xl rounded;
 }

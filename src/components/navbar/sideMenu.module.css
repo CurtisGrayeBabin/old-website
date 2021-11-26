@@ -9,24 +9,25 @@
 
     z-index: 2;
     max-width: 0;
-    transition: max-width 0.15s;
-    -webkit-transition: max-width 0.15s;
-    -moz-transition: max-width 0.15s;
-    -o-transition: max-width 0.15s;
+
+    transition: max-width 0.25s;
+    -webkit-transition: max-width 0.25s;
+    -moz-transition: max-width 0.25s;
+    -o-transition: max-width 0.25s;
 
     margin-top: 2rem;
 }
 
 
-/* padding: 0.125rem 0.25rem; */
 .sidebarButton {
+    border-radius: 50%;
+    transition: all 0.25s ease;
     padding: 0.25rem;
     -webkit-tap-highlight-color: transparent;
 }
 
 @media (hover: hover) {
     .sidebarButton:hover {
-        border-radius: 50%;
         @apply bg-blue-100;
     }
 }

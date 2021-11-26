@@ -7,6 +7,5 @@
 }
 
 .iconStyle {
-    width: 100%;
     @apply text-3xl;
 }
