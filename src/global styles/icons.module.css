@@ -1,11 +1,17 @@
 .icon {
-    @apply mx-auto mb-10 mt-10 text-5xl;
+    font-size: 3rem;
+    @apply mx-auto mb-10 mt-10;
 }
 
 .iconLight {
-    @apply text-blue-100 mx-auto mb-10 mt-10 text-5xl;
+    font-size: 3rem;
+    @apply mx-auto mb-10 mt-10 text-blue-100;
 }
 
 .iconStyle {
-    @apply text-3xl;
+    font-size: 2rem;
+}
+
+.iconStyleSmall {
+    font-size: 1rem;
 }

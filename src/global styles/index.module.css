@@ -17,7 +17,9 @@
 
 .blueBackgroundWrap {
     min-height: 100vh;
-    @apply bg-blue-500 border-t-4 border-b-4 border-blue-100;
+    border-top-width: .35rem;
+    border-bottom-width: .35rem;
+    @apply bg-blue-500 border-blue-100;
 }
 
 .adaHeader {
