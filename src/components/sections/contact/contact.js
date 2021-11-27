@@ -25,16 +25,19 @@ const Contact = (props) => {
     const [emailPlaceholder,setEP] = useState('your@email.com')
     const [messagePlaceholder,setMP] = useState('Hello there, I would like to let you know that...')
     const [disabledStatus,setDisabledStatus] = useState(false)
+
+    // called when session storage key exists or user submits form
+    const handleDisablingForm = () => {
+        setDisabledStatus(true)
+        setEP('Thank')
+        setMP('You!')
+    }
     
     // check on component mount if the user's already submitted the form
     // if so, disable for this page refresh
     useEffect(()=>{
         // check session storage to know whether a user's submitted form data already
-        if(sessionStorage.getItem(sessionKey)){
-            setDisabledStatus(true)
-            setEP('Thank')
-            setMP('You!')
-        }
+        if(sessionStorage.getItem(sessionKey)) handleDisablingForm()
     },[])
 
 
@@ -52,9 +55,7 @@ const Contact = (props) => {
         document.getElementById(formId).reset();
 
         // disable form
-        setDisabledStatus(true)
-        setEP('Thank')
-        setMP('You!')
+        handleDisablingForm()
     }
 
 
