@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { GrMail } from 'react-icons/gr'
 import { iconLight } from '../../../global styles/icons.module.css'
 import { adaHeader } from '../../../global styles/index.module.css'
@@ -16,6 +16,7 @@ import {
 
 const Contact = (props) => {
 
+    const sessionKey = 'curtisBabinWebsiteUserFormWasSubmitted'
     const formId = "contactForm"
     const sendMeMessageContent = 'Feel free to send me a message directly below! From constructive critiques to website requests, I will get back to you shortly.'
 
@@ -24,6 +25,38 @@ const Contact = (props) => {
     const [emailPlaceholder,setEP] = useState('your@email.com')
     const [messagePlaceholder,setMP] = useState('Hello there, I would like to let you know that...')
     const [disabledStatus,setDisabledStatus] = useState(false)
+    
+    // check on component mount if the user's already submitted the form
+    // if so, disable for this page refresh
+    useEffect(()=>{
+        // check session storage to know whether a user's submitted form data already
+        if(sessionStorage.getItem(sessionKey)){
+            setDisabledStatus(true)
+            setEP('Thank')
+            setMP('You!')
+        }
+    },[])
+
+
+    const handleSubmit = (event) => {
+        
+        // prevent page reload
+        event.preventDefault()
+
+        // disable form for this user session
+        sessionStorage.setItem(sessionKey,true);
+
+        alert(`Here is email: ${email} - Here is message: ${message}`)
+
+        // clear the fields
+        document.getElementById(formId).reset();
+
+        // disable form
+        setDisabledStatus(true)
+        setEP('Thank')
+        setMP('You!')
+    }
+
 
     const handleEmailChange = (event) => {
         setEmail(event.target.value)
@@ -31,23 +64,6 @@ const Contact = (props) => {
 
     const handleMessageChange = (event) => {
         setMessage(event.target.value)
-    }
-
-    const handleSubmit = (event) => {
-
-        // prevent page reload
-        event.preventDefault()
-
-        
-        alert(`Here is email: ${email} - Here is message: ${message}`)
-
-        // clear the fields
-        document.getElementById(formId).reset();
-
-        // lock out the form to somewhat prevent spam
-        setDisabledStatus(!disabledStatus)
-        setEP('Thank')
-        setMP('You!')
     }
 
 
