@@ -10,13 +10,13 @@ import {
     label, 
     emailInput,
     messageInput,
-    button
+    buttonBlue,
+    buttonGray
 } from './contact.module.css'
 
 const Contact = (props) => {
 
     const formId = "contactForm"
-    const submitButtonId = "submit"
     const sendMeMessageContent = 'Feel free to send me a message directly below! From constructive critiques to website requests, I will get back to you shortly.'
 
     const [email,setEmail] = useState('')
@@ -80,7 +80,7 @@ const Contact = (props) => {
                         </label>
                     </div>
 
-                    <input type="submit" value="Send" id={submitButtonId} className={button} />
+                    <button type="submit" id="submit" className={disabledStatus ? buttonGray : buttonBlue }>Send</button>
                 </fieldset>
             </form>
 
