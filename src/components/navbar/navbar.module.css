@@ -54,6 +54,6 @@
 /* want hover to display on desktop devices */
 @media (hover: hover) {
     .button:hover {
-        @apply bg-blue-100 rounded-full;
+        @apply bg-blue-300 rounded-full;
     }
 }

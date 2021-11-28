@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { GrMail } from 'react-icons/gr'
-import { iconLight } from '../../../global styles/icons.module.css'
+import { icon } from '../../../global styles/icons.module.css'
 import { adaHeader } from '../../../global styles/index.module.css'
 import { 
     formFrame, 
@@ -74,7 +74,7 @@ const Contact = (props) => {
                 Contact
             </h1>
             <h2>
-                <GrMail className={iconLight}/> 
+                <GrMail className={icon}/> 
             </h2>
 
             <form className={formFrame} onSubmit={handleSubmit} id={formId}>

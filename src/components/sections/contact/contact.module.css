@@ -2,7 +2,8 @@
     border-width: 0.35rem;
     padding: 1.5rem;
     margin-bottom: 2rem;
-    @apply bg-white border-blue-100 rounded-lg flex flex-col w-full relative shadow-2xl;
+    box-shadow: .1rem .2rem .2rem silver;
+    @apply bg-white border-blue-100 rounded-lg flex flex-col w-full relative;
 }
 
 .contactH2 {

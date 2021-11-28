@@ -1,4 +1,6 @@
 .main {
+  position: relative;
+  top: 2rem;
   @apply w-full;
 }
 

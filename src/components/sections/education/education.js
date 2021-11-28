@@ -2,7 +2,7 @@ import * as React from 'react';
 import { StaticImage } from "gatsby-plugin-image"
 import { FaUserGraduate } from 'react-icons/fa';
 
-import { iconLight } from '../../../global styles/icons.module.css'
+import { icon } from '../../../global styles/icons.module.css'
 import { imgBorder } from './education.module.css'
 import { adaHeader } from '../../../global styles/index.module.css'
 
@@ -14,7 +14,7 @@ const Education = (props) => {
                 Education
             </h1>
             <h2>
-                <FaUserGraduate className={iconLight}/> 
+                <FaUserGraduate className={icon}/> 
             </h2>
             
             <div className={imgBorder}>

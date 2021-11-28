@@ -9,11 +9,12 @@
 
     z-index: 2;
     max-width: 0;
+    height: auto;
 
-    transition: max-width 0.25s;
-    -webkit-transition: max-width 0.25s;
-    -moz-transition: max-width 0.25s;
-    -o-transition: max-width 0.25s;
+    transition: 0.25s;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
 
     margin-top: 2rem;
 }
@@ -28,6 +29,6 @@
 
 @media (hover: hover) {
     .sidebarButton:hover {
-        @apply bg-blue-100;
+        @apply bg-blue-300;
     }
 }

@@ -1,6 +1,6 @@
 .imgBorder {
     padding: 1rem 1rem 1rem 1rem;
     margin: 0 0 2rem 0;
-    border-width: .35rem;
-    @apply border-blue-100 shadow-xl rounded;
+    border-width: 0.1rem;
+    @apply border-blue-500 bg-blue-200 shadow-xl rounded;
 }
