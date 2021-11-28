@@ -2,10 +2,10 @@ import * as React from 'react'
 import Navbar from '../navbar/navbar.js'
 import Footer from '../footer/footer.js'
 import { Helmet } from 'react-helmet'
-import { layout } from '../../global styles/layout.module.css'
+import { layout, stickToBottom } from '../../global styles/layout.module.css'
 
 // format of each page (not just Home page)
-const Layout = ({ pageTitle, children }) => {
+const Layout = ({ pageTitle, footerStick, children }) => {
   return (
     <>
         <title>{pageTitle}</title>
@@ -26,7 +26,9 @@ const Layout = ({ pageTitle, children }) => {
           {children}
         </main>
 
-        <Footer />
+        <footer className={footerStick ? stickToBottom : ''}>
+          <Footer />
+        </footer>
     </>
   )
 }

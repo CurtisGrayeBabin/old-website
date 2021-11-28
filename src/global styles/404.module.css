@@ -7,13 +7,16 @@
 }
 
 .error h1 {
-    @apply text-9xl text-center opacity-10 mb-5;
+    font-size: 4rem;
+    @apply text-center opacity-10;
 }
 
 .error p {
-    @apply mb-7 text-lg;
+    font-size: 1rem;
+    margin-bottom: 1rem;
 }
 
 .error button {
-    @apply shadow bg-transparent hover:bg-blue-500 text-blue-500 hover:text-white py-1 px-4 border border-blue-500 hover:border-transparent rounded;
+    font-size: 1rem;
+    @apply shadow bg-transparent hover:bg-blue-500 text-blue-500 hover:text-white py-1 px-2 border border-blue-500 hover:border-transparent rounded;
 }

@@ -6,23 +6,21 @@ import { linkedInSM, linkedInLink, gitHubSM, gitHubLink, instagramSM, instagramL
 const Footer = (props) => {
 
     return (
-        <footer>
-            <div className={footer}>
-                <p><small>Curtis Babin | Front-end developer</small></p>
-                <nav>
-                    <a href={linkedInLink} target="_blank" rel="noreferrer">
-                        {linkedInSM}
-                    </a>
-                    <a href={gitHubLink} target="_blank" rel="noreferrer">
-                        {gitHubSM}
-                    </a>
-                    <a href={instagramLink} target="_blank" rel="noreferrer">
-                        {instagramSM}
-                    </a>
-                </nav>
-                <p><small>{new Date().getFullYear()}</small></p>
-            </div>
-        </footer>
+        <div className={footer}>
+            <p><small>Curtis Babin | Front-end developer</small></p>
+            <nav>
+                <a href={linkedInLink} target="_blank" rel="noreferrer">
+                    {linkedInSM}
+                </a>
+                <a href={gitHubLink} target="_blank" rel="noreferrer">
+                    {gitHubSM}
+                </a>
+                <a href={instagramLink} target="_blank" rel="noreferrer">
+                    {instagramSM}
+                </a>
+            </nav>
+            <p><small>{new Date().getFullYear()}</small></p>
+        </div>
     )
 }
 
