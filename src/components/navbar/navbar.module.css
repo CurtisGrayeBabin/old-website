@@ -1,7 +1,6 @@
 .header {
     -webkit-backdrop-filter: blur(2px) opacity(75%);
     backdrop-filter: blur(2px) opacity(75%);
-    
     @apply pl-2 pr-0 py-1 rounded-b-xl bg-transparent shadow flex flex-wrap justify-between items-center;
 }
 

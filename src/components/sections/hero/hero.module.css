@@ -1,11 +1,10 @@
 .main {
-  position: relative;
-  top: 2rem;
+  padding-top: 2rem;
   @apply w-full;
 }
 
 .main h1 {
-    @apply text-4xl mb-8;
+  @apply text-4xl mb-8;
 }
 
 @keyframes pulse {
@@ -45,7 +44,7 @@
 
 @media (hover: hover) {
   .down-arrow:hover {
-      @apply bg-blue-100;
+      @apply bg-blue-300;
   }
 }
 

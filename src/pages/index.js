@@ -19,7 +19,7 @@ const IndexPage = () => {
           <Portfolio />
         </div>
         
-        <div className={componentWrap} id="contact" style={{'marginTop':'2rem'}}>
+        <div className={componentWrap} id="contact">
           <Contact />
         </div>
 

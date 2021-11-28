@@ -2,7 +2,7 @@ import React from 'react'
 import { projectBorder, links, solid, cardInfo } from './portfolio.module.css'
 import { BsGithub } from 'react-icons/bs'
 import { IoMdOpen } from 'react-icons/io'
-import { iconStyle } from '../../../global styles/icons.module.css'
+import { iconStyleMedium } from '../../../global styles/icons.module.css'
 
 const Project = ({liveUrl, projectTitle, description, img, repoLink}) => {
     return (
@@ -19,10 +19,10 @@ const Project = ({liveUrl, projectTitle, description, img, repoLink}) => {
 
                 <div className={links}>
                     <a href={repoLink} target="_blank" rel="noreferrer">
-                        <BsGithub className={iconStyle}/>
+                        <BsGithub className={iconStyleMedium}/>
                     </a>
                     <a href={liveUrl} target="_blank" rel="noreferrer">
-                        <IoMdOpen className={iconStyle}/>
+                        <IoMdOpen className={iconStyleMedium}/>
                     </a>
                 </div>
             </div>

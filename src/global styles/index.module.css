@@ -7,7 +7,8 @@
 }
 
 .heroWrap {
-    min-height: 100vh;
+    /* the navbar height is 2.5rem */
+    min-height: calc(100vh - 2.5rem);
 }
 
 .componentWrap {
