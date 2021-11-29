@@ -25,8 +25,8 @@ const SideMenu = (props) => {
             <MenuLink icon={instagram} link={instagramLink}/>
 
             <MenuLink icon={portfolio}/>
-            <MenuLink icon={contact}/>
             <MenuLink icon={education}/>
+            <MenuLink icon={contact}/>
 
         </div>
     );

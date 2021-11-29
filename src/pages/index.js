@@ -18,14 +18,14 @@ const IndexPage = () => {
         <div className={blueBackgroundWrap} id="portfolio">
           <Portfolio />
         </div>
-        
-        <div className={componentWrap} id="contact">
-          <Contact />
-        </div>
 
-        <div className={blueBackgroundWrap} id="education">
+        <div className={componentWrap} id="education">
           <Education />  
         </div>  
+
+        <div className={blueBackgroundWrap} id="contact">
+          <Contact />
+        </div>
 
     </Layout>
   )
