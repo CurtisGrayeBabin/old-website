@@ -4,9 +4,13 @@ footer {
 
 .footer {
     padding: .3rem;
-    font-size: 1.25rem;
+    font-size: 1rem;
     max-width: fit-content;
     @apply text-center text-gray-500 mx-auto;
+}
+
+.footer a {
+    font-size: 1rem;
 }
 
 .footer nav {

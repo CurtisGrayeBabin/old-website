@@ -19,7 +19,8 @@ const Footer = (props) => {
                     {instagramSM}
                 </a>
             </nav>
-            <p><small>{new Date().getFullYear()}</small></p>
+            <a href="https://www.termsfeed.com/live/3fbd4032-b635-4816-a90d-ed310ec9d468" target="_"><small>Privacy Policy | {new Date().getFullYear()}</small></a>
+            <p><small></small></p>
         </div>
     )
 }
