@@ -1,22 +1,22 @@
 .icon {
-    height: auto;
-    font-size: 3rem;
-    @apply mx-auto mb-10 mt-10;
+  height: auto;
+  font-size: 3rem;
+  @apply mx-auto mb-10 mt-10;
 }
 
 .iconStyle {
-    height: auto;
-    font-size: 2rem;
-    padding: .25rem;
+  height: auto;
+  font-size: 2rem;
+  padding: 0.25rem;
 }
 
 .iconStyleMedium {
-    height: auto;
-    font-size: 3rem;
-    padding: 0.5rem;
+  height: auto;
+  font-size: 3rem;
+  padding: 0.5rem;
 }
 
 .iconStyleSmall {
-    height: auto;
-    font-size: 1.25rem;
+  height: auto;
+  font-size: 1.25rem;
 }

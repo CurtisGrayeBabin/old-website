@@ -1,28 +1,28 @@
 .main {
-    @apply text-4xl;
+  @apply text-4xl;
 }
 
 .marginTop {
-    @apply mt-12;
+  @apply mt-12;
 }
 
 .heroWrap {
-    /* the navbar height is 2.5rem */
-    min-height: calc(100vh - 2.5rem);
+  /* the navbar height is 2.5rem */
+  min-height: calc(100vh - 2.5rem);
 }
 
 .componentWrap {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 .blueBackgroundWrap {
-    min-height: 100vh;
-    border-top-width: .15rem;
-    border-bottom-width: .15rem;
-    @apply bg-blue-100 border-blue-500;
+  min-height: 100vh;
+  border-top-width: 0.15rem;
+  border-bottom-width: 0.15rem;
+  @apply bg-blue-100 border-blue-500;
 }
 
 .adaHeader {
-    visibility: hidden;
-    font-size: 0;
+  visibility: hidden;
+  font-size: 0;
 }

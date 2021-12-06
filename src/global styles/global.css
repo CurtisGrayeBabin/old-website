@@ -3,45 +3,45 @@
 @tailwind utilities;
 
 @media only screen and (max-width: 600px) {
-    html, 
-    body {
-        margin: 0;
-        width: 100%;
-        height: 100vh;
-        scroll-behavior: smooth;
-        font-size: 1rem;
-    }
+  html,
+  body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+    font-size: 1rem;
   }
+}
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
-    html, 
-    body {
-        margin: 0;
-        width: 100%;
-        height: 100vh;
-        scroll-behavior: smooth;
-        font-size: 1.5rem;
-    }
+  html,
+  body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+    font-size: 1.5rem;
   }
+}
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    html, 
-    body {
-        margin: 0;
-        width: 100%;
-        height: 100vh;
-        scroll-behavior: smooth;
-        font-size: 1.75rem;
-    }
+  html,
+  body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+    font-size: 1.75rem;
   }
+}
 
 @media only screen and (min-width: 1025px) {
-    html, 
-    body {
-        margin: 0;
-        width: 100%;
-        height: 100vh;
-        scroll-behavior: smooth;
-        font-size: 1.2rem;
-    }
+  html,
+  body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+    font-size: 1.2rem;
   }
+}
