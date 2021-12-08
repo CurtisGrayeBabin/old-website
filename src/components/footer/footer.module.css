@@ -3,13 +3,14 @@ footer {
 }
 
 .footer {
-  padding: 0.3rem;
+  padding: 0.5rem;
   font-size: 1rem;
   max-width: fit-content;
   @apply text-center text-gray-500 mx-auto;
 }
 
 .footer a {
+  padding: 0.5rem;
   font-size: 1rem;
 }
 
