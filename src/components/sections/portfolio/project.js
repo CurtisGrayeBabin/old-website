@@ -16,8 +16,6 @@ const Project = ({ liveUrl, projectTitle, description, img, repoLink }) => {
 
         <div>{img}</div>
 
-        <hr className={solid}></hr>
-
         {description}
 
         <div className={links}>

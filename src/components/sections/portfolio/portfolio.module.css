@@ -28,7 +28,7 @@ the tailwind blue-500 color is #3b82f6
 .cardInfo {
   border-radius: 0.35rem;
   padding: 1rem;
-  @apply text-xl border-blue-500 leading-relaxed bg-white;
+  @apply text-xl border-blue-500 leading-relaxed bg-gray-50;
 }
 
 .solid {
