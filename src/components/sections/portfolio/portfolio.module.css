@@ -22,7 +22,7 @@ the tailwind blue-500 color is #3b82f6
   display: inline-block;
   position: relative;
   margin-bottom: 2rem;
-  box-shadow: 0.2rem 0.2rem 0.3rem darkgray;
+  box-shadow: 0.2rem 0.2rem 0.3rem #a9a9a9;
 }
 
 .cardInfo {

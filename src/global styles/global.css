@@ -6,7 +6,7 @@
   html,
   body {
     margin: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     scroll-behavior: smooth;
     font-size: 1rem;
@@ -17,7 +17,7 @@
   html,
   body {
     margin: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     scroll-behavior: smooth;
     font-size: 1.5rem;
@@ -28,7 +28,7 @@
   html,
   body {
     margin: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     scroll-behavior: smooth;
     font-size: 1.75rem;
@@ -39,7 +39,7 @@
   html,
   body {
     margin: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     scroll-behavior: smooth;
     font-size: 1.2rem;

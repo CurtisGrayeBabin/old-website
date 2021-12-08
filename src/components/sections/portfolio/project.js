@@ -1,5 +1,5 @@
 import React from "react";
-import { projectBorder, links, solid, cardInfo } from "./portfolio.module.css";
+import { projectBorder, links, cardInfo } from "./portfolio.module.css";
 import { BsGithub } from "react-icons/bs";
 import { IoMdOpen } from "react-icons/io";
 import { iconStyleMedium } from "../../../global styles/icons.module.css";
