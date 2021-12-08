@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.curtisbabin.com",
-    title: "Curtis Babin",
+    title: "Curtis Babin | Front-End Developer",
   },
   plugins: [
     "gatsby-plugin-image",
@@ -12,8 +12,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "Curtis Babin's website",
-        short_name: "Curtis's site",
+        name: "Curtis Babin | Front-End Developer",
+        short_name: "Curtis Babin",
         start_url: "/",
         background_color: "#FFFFFF",
         theme_color: "#FFFFFF",
@@ -39,15 +39,13 @@ module.exports = {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
-        trackingIds: [
-          "G-LPTSLQBQHN",
-        ],
+        trackingIds: ["G-LPTSLQBQHN"],
         // This object gets passed directly to the gtag config command
         // This config will be shared across all trackingIds
         gtagConfig: {
           optimize_id: "OPT_CONTAINER_ID",
           anonymize_ip: true,
-          cookie_expires: 0
+          cookie_expires: 0,
         },
         // This object is used for configuration specific to this plugin
         pluginConfig: {
@@ -59,6 +57,6 @@ module.exports = {
           exclude: [],
         },
       },
-    }
+    },
   ],
 };

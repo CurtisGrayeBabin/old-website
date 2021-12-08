@@ -21,7 +21,7 @@ const Layout = ({ pageTitle, footerStick, children }) => {
         <meta name="author" content="Curtis Babin"></meta>
         <meta
           name="keywords"
-          content="Curtis, Babin, front, end, developer, full, stack, software, engineer, JavaScript, Node, react, Udacity, graduate"
+          content="Curtis, Babin, McGraw, Hill, UCI, Carter, website, app, developer, software, engineer, front, end, JavaScript"
         ></meta>
         <link
           rel="manifest"

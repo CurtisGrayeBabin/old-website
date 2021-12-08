@@ -12,7 +12,7 @@ import {
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Home">
+    <Layout pageTitle="Curtis Babin | Home">
       <div className={heroWrap}>
         <Hero />
       </div>

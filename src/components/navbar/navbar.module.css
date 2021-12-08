@@ -24,7 +24,7 @@
   @apply rounded-full;
 }
 
-.main div span {
+.main div h1 {
   font-size: 1.35rem;
   padding-left: 0.5rem;
 }
@@ -38,7 +38,7 @@
 }
 
 .svg1 {
-  @apply w-7 h-7 text-white bg-blue-500 rounded-full;
+  @apply w-7 h-7 text-gray-50 bg-blue-500 rounded-full;
 }
 
 .button {
