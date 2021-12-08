@@ -9,10 +9,12 @@
 .heroWrap {
   /* the navbar height is 2.5rem */
   min-height: calc(100vh - 2.5rem);
+  @apply bg-gray-50;
 }
 
 .componentWrap {
   min-height: 100vh;
+  @apply bg-gray-50;
 }
 
 .blueBackgroundWrap {

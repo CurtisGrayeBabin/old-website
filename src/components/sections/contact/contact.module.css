@@ -2,7 +2,7 @@
   border-width: 0.35rem;
   padding: 1.5rem;
   margin-bottom: 2rem;
-  @apply bg-white border-blue-500 rounded-lg flex flex-col w-full relative shadow-2xl;
+  @apply bg-gray-50 border-blue-500 rounded-lg flex flex-col w-full relative shadow-2xl;
 }
 
 .contactH2 {
@@ -25,11 +25,11 @@
 }
 
 .emailInput {
-  @apply w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out;
+  @apply w-full bg-gray-50 rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out;
 }
 
 .messageInput {
-  @apply w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out;
+  @apply w-full bg-gray-50 rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out;
 }
 
 [id="submit"] {

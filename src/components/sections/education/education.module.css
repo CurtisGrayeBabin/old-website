@@ -1,7 +1,14 @@
 .imgBorder {
   padding: 1rem 1rem 1rem 1rem;
-  margin: 0 0 2rem 0;
   border-width: 0.1rem;
   box-shadow: 0.2rem 0.2rem 0.3rem darkgray;
   @apply border-blue-500 bg-blue-200 rounded;
+}
+
+.certificateContainer {
+  padding-bottom: 2rem;
+}
+
+.certificateContainer li:nth-child(2) {
+  margin: 2rem 0;
 }

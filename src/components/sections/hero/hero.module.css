@@ -1,6 +1,6 @@
 .main {
   padding-top: 2rem;
-  @apply w-full;
+  @apply w-full bg-gray-50;
 }
 
 .main h1 {

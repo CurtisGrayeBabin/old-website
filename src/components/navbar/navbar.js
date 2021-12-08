@@ -17,7 +17,7 @@ const Navbar = (props) => {
 
   return (
     <>
-      <Headroom>
+      <Headroom wrapperStyle={{ background: "#f9fafb", height: "100%" }}>
         <header className={header}>
           <Link to="#" className={main}>
             <div className={hideBlueBox}>
