@@ -43,8 +43,16 @@ const Education = (props) => {
               href="https://www.udacity.com/course/full-stack-javascript-developer-nanodegree--nd0067"
               target="_"
             >
-              here!
+              here
             </a>
+            ! Confirmation of my graduation is{" "}
+            <a
+              href="https://graduation.udacity.com/confirm/QWWVKSGE"
+              target="_"
+            >
+              here
+            </a>
+            .
           </p>
         </article>
 
@@ -54,6 +62,28 @@ const Education = (props) => {
             alt="Here is my Codecademy certificate for completing their Web Development Career Path program"
           />
         </li>
+        <article className={articleInfo}>
+          <h3>About my Codecademy Certification</h3>
+          <p>
+            Before the pandemic of 2020, I wanted to create websites, but I did
+            not want to spend the time to learn how to do so. I tried learning
+            website development through various free methods, but I realized I
+            enjoy learning the most from well-thought-out programs. Codecademy
+            offers the Web Development Career Path. This course covers HTML,
+            CSS, JavaScript, Git, SQL, APIs, Express.js, and React.js
+            frameworks. I enjoyed taking the time to understand as many topics
+            as I could in just one place. After finishing this{" "}
+            <a
+              href="https://www.codecademy.com/learn/paths/web-development"
+              target="_"
+            >
+              course
+            </a>
+            , I wanted to learn more about full-stack development with Node.js,
+            so I signed up for Udacity.
+          </p>
+        </article>
+
         <li className={imgBorder}>
           <StaticImage
             src="../../../images/degree.jpg"
