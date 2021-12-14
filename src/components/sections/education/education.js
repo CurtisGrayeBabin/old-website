@@ -90,6 +90,20 @@ const Education = (props) => {
             alt="Here is my Bachelor of Science degree in Computer Science from University of California, Irvine"
           />
         </li>
+        <article className={articleInfo}>
+          <h3>About my Computer Science Degree</h3>
+          <p>
+            Why did I choose to study Computer Science, you may ask? Because it
+            sounded cool. Computers fascinated me as a child. I wanted to know
+            how taking a tower full of random metal and wires and plugging it
+            into the wall led to a Windows 95 login screen. The only thing I
+            ever programmed before attending UC Irvine was a TI-93 calculator,
+            and then I didn't have to memorize geometry formulas anymore. My
+            curiosity has led me down some interesting paths, and I continue to
+            learn since it keeps me busy, and I honestly find the process of
+            conquering new concepts to be a lot of fun.
+          </p>
+        </article>
       </ul>
     </section>
   );

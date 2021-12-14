@@ -49,13 +49,31 @@ const Contact = (props) => {
     // disable form for this user session
     sessionStorage.setItem(sessionKey, true);
 
-    alert(`Here is email: ${email} - Here is message: ${message}`);
+    const endpoint = process.env.GATSBY_API_URL;
+    const body = JSON.stringify({ senderEmail: email, message: message });
+    const reqOptions = { method: "POST", body };
 
-    // clear the fields
-    document.getElementById(formId).reset();
-
-    // disable form
-    handleDisablingForm();
+    fetch(endpoint, reqOptions)
+      .then((res) => {
+        if (!res.ok) {
+          alert(
+            `Sorry! There was an error in sending your message. Please try again some other time.`
+          );
+        }
+        return res.json();
+      })
+      .then((res) => {
+        // success condition
+        alert(`Your message was sent successfully.`);
+        // clear and disable form
+        document.getElementById(formId).reset();
+        handleDisablingForm();
+      })
+      .catch((err) => {
+        alert(
+          `Sorry! There was an error in sending your message. Please try again some other time.`
+        );
+      });
   };
 
   const handleEmailChange = (event) => {
