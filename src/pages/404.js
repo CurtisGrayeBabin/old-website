@@ -5,7 +5,7 @@ import { Link } from "gatsby";
 
 const NotFoundPage = () => {
   return (
-    <Layout pageTitle="404" footerStick={true}>
+    <Layout pageTitle="404" layoutChoice={0} footerStick={true}>
       <section className={error}>
         <h1 className={`animate-pulse`}>404</h1>
         <p>Oops, this page doesn't exist!</p>

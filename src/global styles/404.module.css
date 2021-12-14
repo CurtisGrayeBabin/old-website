@@ -1,5 +1,12 @@
 .error {
-  @apply mx-auto text-center;
+  position: absolute;
+  height: calc(100% - 3rem);
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 3rem;
+  margin: auto;
+  @apply text-center bg-gray-50;
 }
 
 .error div {
