@@ -6,7 +6,7 @@ const Hero = (props) => {
   return (
     <section className={main}>
       <h1>I create single page apps & fast, SEO-friendly websites</h1>
-      <h2>I am a front-end developer :)</h2>
+      <h2>I am a Node.js Developer :)</h2>
       <Link to="#portfolio" className={arrowContainer}>
         <svg
           xmlns="http://www.w3.org/2000/svg"

@@ -5,7 +5,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.curtisbabin.com",
-    title: "Curtis Babin | Front-End Developer",
+    title: "Curtis Babin | Node.js Developer",
   },
   plugins: [
     "gatsby-plugin-image",
@@ -16,7 +16,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "Curtis Babin | Front-End Developer",
+        name: "Curtis Babin | Node.js Developer",
         short_name: "Curtis Babin",
         start_url: "/",
         background_color: "#FFFFFF",

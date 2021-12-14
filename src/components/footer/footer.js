@@ -14,7 +14,7 @@ const Footer = (props) => {
   return (
     <div className={footer}>
       <p>
-        <small>Curtis Babin | Front-End Developer</small>
+        <small>Curtis Babin | Node.js Developer</small>
       </p>
       <nav>
         <a href={linkedInLink} target="_blank" rel="noreferrer">
